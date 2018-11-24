@@ -1,0 +1,36 @@
+{
+    "name": "cms_framework_seed/block",
+    "description": "Block package for Cms_Framework_Seed",
+    "keywords": ["cms_framework_seed", "block"],
+    "license": "MIT",
+    "type": "cms_framework_seed-package",
+    "homepage": "https://github.com/Cms_Framework_Seed/Block",
+    "authors": [
+        {
+            "name": "30Hills",
+            "email": "info@renfos.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3"
+    },
+    "autoload": {
+        "classmap": [
+            "database/seeds"
+        ],
+        "psr-4": { 
+            "Cms_Framework_Seed\\Block\\": "/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cms_Framework_Seed\\Block\\BlockServiceProvider"
+            ],
+            "aliases": {
+                "Block"       : "Cms_Framework_Seed\\Block\\Facades\\Block"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
