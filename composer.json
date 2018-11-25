@@ -3,7 +3,7 @@
     "description": "Block package for Cms_Framework_Seed",
     "keywords": ["cms_framework_seed", "block"],
     "license": "MIT",
-    "type": "seed-package",
+    "type": "package",
     "homepage": "https://github.com/Cms_Framework_Seed/Block",
     "authors": [
         {
